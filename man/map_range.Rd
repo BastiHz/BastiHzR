@@ -22,7 +22,12 @@ map_range(x, in_start = min(x, na.rm = TRUE), in_end = max(x, na.rm =
 blargh
 }
 \description{
-map_range
+Map a vector from one range to another. Works by first scaling down to [0;1]
+and then scaling up to the target range.
+}
+\details{
+Does not throw an error if \code{out_start > out_end} because this may be desirable
+in some cases.
 }
 \examples{
 map_range(1:3)                  # 0.0, 0.5, 1.0
@@ -30,4 +35,6 @@ map_range(1:3, 1, 10)           # 0.00, 0.11, 0.22
 map_range(1:3, 0, 10)           # 0.1, 0.2, 0.3
 map_range(1:3, 0, 10, 0, 100)   # 10, 20, 30
 map_range(1:3, 1, 10, 10, 100)  # 10, 20, 30
+# target range may be inverted (see Details):
+map_range(1:3, out_start = 30, out_end = 10)  # 30, 20, 10)
 }
