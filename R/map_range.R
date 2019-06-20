@@ -3,8 +3,8 @@
 #' Map a vector from one range to another. Works by first scaling down to [0;1]
 #' and then scaling up to the target range.
 #'
-#' Does not throw an error if \code{out_start > out_end} because this may be desirable
-#' in some cases.
+#' Does not throw an error if \code{out_start > out_end} because this may be
+#' desirable in some cases.
 #'
 #' @param x foo
 #' @param in_start bar
