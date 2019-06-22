@@ -12,8 +12,6 @@
 #'   \code{min(x)} and \code{max(x)} with NA removed.
 #' @param out_start,out_end The limits of the output range, defaults to 0 and 1.
 #'
-#' @export
-#'
 #' @examples
 #' linear_map(1:3)                                # 0, 0.5, 1
 #' linear_map(1:3, 0, 10)                         # 0.1, 0.2, 0.3
@@ -23,6 +21,7 @@
 #'
 #' # Ranges may also go from high to low values (inverts the result):
 #' linear_map(1:3, out_start = 30, out_end = 10)  # 30, 20, 10)
+#' @export
 linear_map <- function(x,
                       in_start = min(x, na.rm = TRUE),
                       in_end = max(x, na.rm = TRUE),

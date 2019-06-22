@@ -1,12 +1,16 @@
 Package: BastiHzR
 Type: Package
-Title: What the Package Does (Title Case)
+Title: A personal R Package With Miscellaneous Stuff
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
+Authors@R: person("Sebastian", "Henz", role = c("aut", "cre"),
+                  email = "bastihz.dev@posteo.de")
+Maintainer: Sebastian Henz <bastihz.dev@posteo.de>
+Description: Just a collection of functions that are useful to me. Not intended
+    for use in any important stuff or by other people. This package is a 
+    personal playground and things will break, therefore nothing should depend 
+    on it too heavily.
+License: GPL-3 | file LICENSE
+URL: https://github.com/BastiHz/BastiHzR
 Encoding: UTF-8
 LazyData: true
 Suggests: 
