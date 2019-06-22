@@ -29,7 +29,6 @@ linear_map <- function(x,
                       out_start = 0,
                       out_end = 1) {
     stopifnot(
-        # Prevent division by 0.
         in_start != in_end,
         out_start != out_end
     )
