@@ -16,10 +16,14 @@ a \%!in\% b
 The negated output of \code{\link[base:match]{\%in\%}}.
 }
 \description{
-Provides a "not in" like in Python that is in my opinion prettier than
-\code{!x \%in\% y}.
+Provides a "not in" like in Python by negating \code{\%in\%}.
 }
 \details{
-\code{!x \%in\% y} works, too, because \code{\%in\%} takes precedence before
-\code{!}, see \link[base]{Syntax}.
+In my opinion this is prettier and more readable than using \code{!x \%in\%
+y}. By the way, this notation works without parentheses because \code{\%in\%}
+takes precedence before \code{!}, see \link[base]{Syntax}.
+}
+\examples{
+42 \%!in\% 1:10  # TRUE
+
 }
