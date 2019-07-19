@@ -17,6 +17,7 @@ linear_map(x, in_start = min(x, na.rm = TRUE), in_end = max(x, na.rm =
 }
 \description{
 Linearly map (scale) one or more numbers from one range to another range.
+This is the same as linear interpolation.
 }
 \details{
 If the input is outside the input range then it will be outside the output

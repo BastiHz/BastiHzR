@@ -1,6 +1,7 @@
 #' Linearly map numbers
 #'
 #' Linearly map (scale) one or more numbers from one range to another range.
+#' This is the same as linear interpolation.
 #'
 #' If the input is outside the input range then it will be outside the output
 #' range, too.
