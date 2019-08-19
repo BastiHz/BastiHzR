@@ -10,7 +10,7 @@ Description: Just a collection of functions that are useful to me. Not intended
     for use in any important stuff or by other people. This package is a 
     personal playground and things will break, therefore nothing should depend 
     on it too heavily.
-License: GPL-3
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 Suggests: 
