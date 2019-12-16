@@ -4,8 +4,13 @@
 \alias{linear_map}
 \title{Linearly map numbers}
 \usage{
-linear_map(x, in_start = min(x, na.rm = TRUE), in_end = max(x, na.rm =
-  TRUE), out_start = 0, out_end = 1)
+linear_map(
+  x,
+  in_start = min(x, na.rm = TRUE),
+  in_end = max(x, na.rm = TRUE),
+  out_start = 0,
+  out_end = 1
+)
 }
 \arguments{
 \item{x}{A numeric vector.}
