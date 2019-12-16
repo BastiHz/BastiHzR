@@ -1,6 +1,8 @@
 
 # Plot the linear regression line only inside the bounds of x.
 
+# FIXME: Merge this with the file lm_segment in the Privatkram repo. see the
+#        todo there about necessary changes.
 # TODO: Write documentation
 # TODO: Write tests. Test cases: positive slope, negative slope, no slope, unordered x.
 
