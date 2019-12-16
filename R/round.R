@@ -5,6 +5,9 @@
 #' @param x The value to round.
 #' @param n The value which determines the rounding target.
 #'
+#' @note Symmetrical rounding to the next power of ten can also be archived
+#'   using \code{\link[base]{round}} with a negative \code{digits} argument.
+#'
 #' @examples
 #' round_to_next_multiple(120, 50)  # 100
 #' round_to_next_multiple(17, 5)  # 15

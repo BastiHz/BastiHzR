@@ -20,6 +20,10 @@ floor_to_next_multiple(x, n)
 \description{
 Round x up or down to the nearest multiple of n.
 }
+\note{
+Symmetrical rounding to the next power of ten can also be archived
+  using \code{\link[base]{round}} with a negative \code{digits} argument.
+}
 \examples{
 round_to_next_multiple(120, 50)  # 100
 round_to_next_multiple(17, 5)  # 15
