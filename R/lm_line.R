@@ -27,3 +27,11 @@
 # mod <- lm(y~x)
 # #abline(mod)
 # lm_line(mod, col = "red", lwd = 2)
+
+# Alternative; creates only two endpoints even if there are multiple x values at the extremes.
+# lm_line <- function(mod, ...) {
+#     # Draw the linear regression line only inside the x limits of the data.
+#     x <- range(mod$model[, 2])  # works only with one independent variable
+#     y <- predict(mod, newdata = setNames(data.frame(x), names(mod$model)[2]))
+#     lines(x, y, ...)
+# }
