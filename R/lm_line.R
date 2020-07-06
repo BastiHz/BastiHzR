@@ -5,6 +5,8 @@
 #        todo there about necessary changes.
 # TODO: Write documentation
 # TODO: Write tests. Test cases: positive slope, negative slope, no slope, unordered x.
+# TODO: Has to work when the variables are not called x and y. For example "mod$model$x" 
+#       will fail for other names.
 
 # lm_line <- function(mod, plot = TRUE, ...) {
 #     x <- mod$model$x
