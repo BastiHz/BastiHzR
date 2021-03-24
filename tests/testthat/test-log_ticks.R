@@ -1,5 +1,3 @@
-context("log_ticks")
-
 test_that("log_ticks output is correct", {
     x <- 10^seq(1, 2, length.out = 100)
     x2 <- log10(x)

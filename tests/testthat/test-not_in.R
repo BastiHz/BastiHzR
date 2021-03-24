@@ -1,5 +1,3 @@
-context("%!in%")
-
 test_that("%!in% works as expected", {
     foo <- c(1, 2)
     bar <- c(1, 3, 4, 5)

@@ -1,6 +1,3 @@
-context("round")
-
-
 test_that("round_to_next_multiple", {
     expect_equal(round_to_next_multiple(120, 50), 100)
     expect_equal(round_to_next_multiple(17, 5), 15)

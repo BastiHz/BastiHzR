@@ -1,5 +1,3 @@
-context("linear_map")
-
 test_that("linear_map output is correct", {
     foo <- 1:3
     expect_equal(linear_map(foo), c(0.0, 0.5, 1.0))
